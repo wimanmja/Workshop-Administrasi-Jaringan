@@ -1,5 +1,5 @@
 
-# 🚀 Tugas Kelompok Routing & Linux
+# Tugas Kelompok Routing & Linux
 ![](https://www.seekpng.com/png/detail/416-4164571_logo-pens-png-electronic-engineering-polytechnic-institute-of.png)
 -
 ## Anggota Kelompok :
@@ -21,7 +21,7 @@
 
 Check apakah PC sudah mendapatkan ip address secara dhcp dengan `ip a`
 
-![](../Screenshoot/ip%20a.png)
+![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/fd1ee5ae3e1a3b7a80e2fc5376aba72899df012c/Tugas%20Kelompok%20Routing/Screenshots/ip%20a.png)
 
 Apabila masih belum mendapatkan Ip gunakan 
 ```
@@ -34,10 +34,10 @@ Setelah mendapatkan Ip address dari Router, catatlah ipnya dan juga catat ip RB3
 
 - IP PC
     - enps2s0
-        <br> ![](../Screenshoot/ip%20pc.png)
+        <br> ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/fd1ee5ae3e1a3b7a80e2fc5376aba72899df012c/Tugas%20Kelompok%20Routing/Screenshots/ip%20pc.png)
 - IP Router
     - Eth1 & Eth 2
-        <br> ![](../Screenshoot/ip%20all.png)
+        <br> ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/fd1ee5ae3e1a3b7a80e2fc5376aba72899df012c/Tugas%20Kelompok%20Routing/Screenshots/ip%20all.png)
 
 ## Akses Router RB301 dengan Winbox via Wine
 
@@ -57,11 +57,11 @@ Untuk menggunakan Winbox di Debian dibutuhkanlah dependency yaitu [**Wine**](htt
     ```
 - Jangan lupa rubah winbox ke mode legacy agar bisa masuk ke interface
 
-     ![](../Screenshoot/legacy.png)
+     ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/legacy.png)
      
 - Masuk ke interface winbox
 
-    ![](../Screenshoot/interface.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/interface.png)
 
 ## Routing table pada RB301 ke seluruh subnet 192.168.x.x
 
@@ -69,15 +69,15 @@ Masuk ke `IP -> Route` untuk membuka konfigurasi Routing dan masukkan Dst Addres
 
 - Tabel Route 1
 
-    ![](../Screenshoot/Route%201.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/Route%201.png)
 
 - Tabel Route 2
 
-    ![](../Screenshoot/Route%202.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/Route%202.png)
 
 Hasil dari Seluruh Routing
 
-<center><img src="../Screenshoot/all%20route.png" alt="Kitten" title="A cute kitten" width="350" height="200" /> </center>
+<center><img src="https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/Route%202.png" alt="Kitten" title="A cute kitten" width="350" height="200" /> </center>
 
 
 ## Install Virtual Box
@@ -110,7 +110,7 @@ Untuk Install Virtual Box di Debian cukup sedikit rumit, dikarenakan menginstall
     
 
 Tampilan awal VirtualBox setelah dijalankan
-    ![](../Screenshoot/virtualbox%20interface.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/virtualbox%20interface.png)
 
 ## Install Ubuntu di Virtual Box
 
@@ -119,24 +119,24 @@ Sebelum memulai penginstallan, persiapkanlah file .ISO ubuntu untuk memulai peng
 Berikut cara penginstallan Ubuntu di Virtual Box
 - Membuat Nama Virtual machine dan memasukkan .ISO image Ubuntu
 
-    ![](../Screenshoot/name%20vm.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/name%20vm.png)
 
 - Tentukan Username Password serta nama Hostname
 
-    ![](../Screenshoot/host.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/host.png)
 
 - Tentukan Ukuran RAM dan CPU, Untuk perobaan kali ini diberikan 4 GB dan 4 core CPU
 
-    ![](../Screenshoot/ram.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/ram.png)
 
 - Berikan Storage Virtual secukupnya. contoh dipercobaan ini adalah 40 GB
 
-    ![](../Screenshoot/storage.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/storage.png)
 
 - Berikut ini adalah summary dari opsi konfigurasi pembuatan Virtual Ubuntu
 
-    ![](../Screenshoot/summary.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/summary.png)
 
 - Tunggu hingga Selesai dan Ubuntu Siap digunakan
 
-    ![](../Screenshoot/install.png)
+    ![](https://github.com/wimanmja/Workshop-Administrasi-Jaringan/blob/5d67322f40da63465b6428eef611cab318336493/Tugas%20Kelompok%20Routing/Screenshots/install.png)
